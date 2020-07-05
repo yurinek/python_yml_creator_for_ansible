@@ -1,14 +1,14 @@
 # Python YML Creator for Ansible
 
-## Goals of the projec
+## Goals of the project
 
-This script creates a list of database users from the interactive operator input. <br> <br>
+This script creates a list of database users from the interactive operator input. <br>
 
-After that an ansible yml file is generated which stores new created user lists. <br> <br>
+After that an ansible yml file is generated which stores new created user lists. <br>
 
-This way there is no need for manual creation of ansible yml files. <br> <br>
+This way there is no need for manual creation of ansible yml files. <br>
 
-In this script created users have been tested to be successfully deployed to a remote Postgres database. <br> <br>
+In this script created users have been tested to be successfully deployed to a remote Postgres database. <br>
 
 
 ## Prerequisits
