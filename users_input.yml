@@ -1,0 +1,18 @@
+---
+
+databases:
+  - my_database
+  - other_database
+  
+
+
+
+# some comment
+# which should be kept
+
+
+
+database_users:
+  - {"name": "my_user", "password": "plain_text_password_which_shouldnt_be_here", "expires": True, "attributes": "LOGIN"}
+  - {"name": "other_user_name", "password": "md51d59384241a013fb6c638b39232b6b44", "expires": True, "attributes": "LOGIN"}
+  - {"name": "different_user", "password": "md562db2a7c1d8c32b815e233cd5f3728d2", "expires": True, "attributes": "LOGIN"}
