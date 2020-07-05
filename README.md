@@ -39,7 +39,7 @@ and replace the password with its md5 hash. <br> <br>
 
 In case of storing the result file in a repository, it is advised to additionally encrypt it, e.g. using Ansible Vault. <br> <br>
 
---expire" parameter can be used to create users with expiration of their database account.
+--expire parameter can be used to create users with expiration of their database account.
 
 ```hcl
 python create_ansible_yaml.py -i users_input.yml -e yes
