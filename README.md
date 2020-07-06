@@ -2,9 +2,9 @@
 
 ## Goals of the project
 
-This script creates a list of database users from the interactive operator input. <br>
+This script creates a dict list of database users from the interactive operator input. <br>
 
-After that an ansible yml file is generated which stores new created user lists. <br>
+After that an ansible yml file is generated which stores new created user dict lists. <br>
 
 This way there is no need for manual creation of ansible yml files. <br>
 
